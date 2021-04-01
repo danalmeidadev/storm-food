@@ -1,0 +1,79 @@
+{
+  "name": "stormfood",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start --reset-cache",
+    "pod": "cd ios && pod install",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "cross-env CI=true yarn test --bail --findRelatedTests",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "babel-plugin-root-import": "^6.6.0",
+    "commitizen": "^4.2.3",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "pretty-quick": "^3.1.0",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-dotenv": "^2.5.3",
+    "styled-components": "^5.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.20",
+    "@types/react-native": "^0.64.0",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-jest": "^26.6.3",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "prettier": "^2.2.1",
+    "react-test-renderer": "17.0.1",
+    "typescript": "^3.8.3"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
