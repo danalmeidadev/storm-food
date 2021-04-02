@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		635F64F4E23C3972C7C245A5 /* libPods-stormFood.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E00857A6685516B91DB208 /* libPods-stormFood.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B38EC5BBD3DCBA907A97BD5F /* libPods-stormFood-stormFoodTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B717F383B9FACDC764E381 /* libPods-stormFood-stormFoodTests.a */; };
-		BD9A1C03129F893454ED773A /* libPods-stormFood.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BDF66E97232F41A54C54BE /* libPods-stormFood.a */; };
+		B75C234A86420EEED0D57F5B /* libPods-stormFood-stormFoodTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEDF1B1C7DDD2D7B6D70B5C /* libPods-stormFood-stormFoodTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +30,20 @@
 		00E356EE1AD99517003FC87E /* stormFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stormFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* stormFoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stormFoodTests.m; sourceTree = "<group>"; };
-		03B759C3C697B7FF0CCD9BA9 /* Pods-stormFood-stormFoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stormFood-stormFoodTests.release.xcconfig"; path = "Target Support Files/Pods-stormFood-stormFoodTests/Pods-stormFood-stormFoodTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* stormFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stormFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = stormFood/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = stormFood/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = stormFood/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = stormFood/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = stormFood/main.m; sourceTree = "<group>"; };
-		23BDF66E97232F41A54C54BE /* libPods-stormFood.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stormFood.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4132C4B5C0697B63CE6D0C66 /* Pods-stormFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stormFood.release.xcconfig"; path = "Target Support Files/Pods-stormFood/Pods-stormFood.release.xcconfig"; sourceTree = "<group>"; };
-		6606ADB56026B58D4E43CDF6 /* Pods-stormFood-stormFoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stormFood-stormFoodTests.debug.xcconfig"; path = "Target Support Files/Pods-stormFood-stormFoodTests/Pods-stormFood-stormFoodTests.debug.xcconfig"; sourceTree = "<group>"; };
-		73B717F383B9FACDC764E381 /* libPods-stormFood-stormFoodTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stormFood-stormFoodTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEDF1B1C7DDD2D7B6D70B5C /* libPods-stormFood-stormFoodTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stormFood-stormFoodTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B69734E8537F9EB4D20E11A /* Pods-stormFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stormFood.release.xcconfig"; path = "Target Support Files/Pods-stormFood/Pods-stormFood.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = stormFood/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9193C351ECBE61630169E9EA /* Pods-stormFood-stormFoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stormFood-stormFoodTests.release.xcconfig"; path = "Target Support Files/Pods-stormFood-stormFoodTests/Pods-stormFood-stormFoodTests.release.xcconfig"; sourceTree = "<group>"; };
+		9203CE69ECF5B192324A08DF /* Pods-stormFood-stormFoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stormFood-stormFoodTests.debug.xcconfig"; path = "Target Support Files/Pods-stormFood-stormFoodTests/Pods-stormFood-stormFoodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD5F230A03CD4311EB08812B /* Pods-stormFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stormFood.debug.xcconfig"; path = "Target Support Files/Pods-stormFood/Pods-stormFood.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FE786BDB482B9B141C07C481 /* Pods-stormFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stormFood.debug.xcconfig"; path = "Target Support Files/Pods-stormFood/Pods-stormFood.debug.xcconfig"; sourceTree = "<group>"; };
+		F9E00857A6685516B91DB208 /* libPods-stormFood.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stormFood.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B38EC5BBD3DCBA907A97BD5F /* libPods-stormFood-stormFoodTests.a in Frameworks */,
+				B75C234A86420EEED0D57F5B /* libPods-stormFood-stormFoodTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD9A1C03129F893454ED773A /* libPods-stormFood.a in Frameworks */,
+				635F64F4E23C3972C7C245A5 /* libPods-stormFood.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,10 +100,22 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				23BDF66E97232F41A54C54BE /* libPods-stormFood.a */,
-				73B717F383B9FACDC764E381 /* libPods-stormFood-stormFoodTests.a */,
+				F9E00857A6685516B91DB208 /* libPods-stormFood.a */,
+				5CEDF1B1C7DDD2D7B6D70B5C /* libPods-stormFood-stormFoodTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61F74BCBA2D85C99F79D9957 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD5F230A03CD4311EB08812B /* Pods-stormFood.debug.xcconfig */,
+				7B69734E8537F9EB4D20E11A /* Pods-stormFood.release.xcconfig */,
+				9203CE69ECF5B192324A08DF /* Pods-stormFood-stormFoodTests.debug.xcconfig */,
+				9193C351ECBE61630169E9EA /* Pods-stormFood-stormFoodTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -121,7 +133,7 @@
 				00E356EF1AD99517003FC87E /* stormFoodTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				9F384E7D2390A81FC9B1EE0A /* Pods */,
+				61F74BCBA2D85C99F79D9957 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,18 +149,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9F384E7D2390A81FC9B1EE0A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FE786BDB482B9B141C07C481 /* Pods-stormFood.debug.xcconfig */,
-				4132C4B5C0697B63CE6D0C66 /* Pods-stormFood.release.xcconfig */,
-				6606ADB56026B58D4E43CDF6 /* Pods-stormFood-stormFoodTests.debug.xcconfig */,
-				03B759C3C697B7FF0CCD9BA9 /* Pods-stormFood-stormFoodTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,12 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "stormFoodTests" */;
 			buildPhases = (
-				BD9D66CAB275509D6C191F8E /* [CP] Check Pods Manifest.lock */,
+				34FFC0221C67F59D582F2B49 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				52F2A38C4BD36ABF5E599CB0 /* [CP] Embed Pods Frameworks */,
-				4B965E017A90AF0525D815FA /* [CP] Copy Pods Resources */,
+				9D49E4817B60F0C51E28891E /* [CP] Embed Pods Frameworks */,
+				332F990ACA055225DB86DA2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +177,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "stormFood" */;
 			buildPhases = (
-				AECC3CAC360E098A8E0D6141 /* [CP] Check Pods Manifest.lock */,
+				51E1CD72686082D05CB5BD65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				B8427F26C22503AA73048C19 /* [CP] Embed Pods Frameworks */,
-				B5C53F8910351AC45C4543D9 /* [CP] Copy Pods Resources */,
+				AD76795F40A14B81DFD52646 /* [CP] Embed Pods Frameworks */,
+				4B4710F40BEFD020EB3E22A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,7 +265,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		4B965E017A90AF0525D815FA /* [CP] Copy Pods Resources */ = {
+		332F990ACA055225DB86DA2E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,24 +282,46 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stormFood-stormFoodTests/Pods-stormFood-stormFoodTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		52F2A38C4BD36ABF5E599CB0 /* [CP] Embed Pods Frameworks */ = {
+		34FFC0221C67F59D582F2B49 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-stormFood-stormFoodTests/Pods-stormFood-stormFoodTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-stormFood-stormFoodTests/Pods-stormFood-stormFoodTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stormFood-stormFoodTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stormFood-stormFoodTests/Pods-stormFood-stormFoodTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AECC3CAC360E098A8E0D6141 /* [CP] Check Pods Manifest.lock */ = {
+		4B4710F40BEFD020EB3E22A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-stormFood/Pods-stormFood-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-stormFood/Pods-stormFood-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stormFood/Pods-stormFood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51E1CD72686082D05CB5BD65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,24 +343,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B5C53F8910351AC45C4543D9 /* [CP] Copy Pods Resources */ = {
+		9D49E4817B60F0C51E28891E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-stormFood/Pods-stormFood-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-stormFood-stormFoodTests/Pods-stormFood-stormFoodTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-stormFood/Pods-stormFood-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-stormFood-stormFoodTests/Pods-stormFood-stormFoodTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stormFood/Pods-stormFood-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stormFood-stormFoodTests/Pods-stormFood-stormFoodTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B8427F26C22503AA73048C19 /* [CP] Embed Pods Frameworks */ = {
+		AD76795F40A14B81DFD52646 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,28 +375,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stormFood/Pods-stormFood-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BD9D66CAB275509D6C191F8E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-stormFood-stormFoodTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -429,7 +429,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6606ADB56026B58D4E43CDF6 /* Pods-stormFood-stormFoodTests.debug.xcconfig */;
+			baseConfigurationReference = 9203CE69ECF5B192324A08DF /* Pods-stormFood-stormFoodTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -456,7 +456,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03B759C3C697B7FF0CCD9BA9 /* Pods-stormFood-stormFoodTests.release.xcconfig */;
+			baseConfigurationReference = 9193C351ECBE61630169E9EA /* Pods-stormFood-stormFoodTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -480,7 +480,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE786BDB482B9B141C07C481 /* Pods-stormFood.debug.xcconfig */;
+			baseConfigurationReference = AD5F230A03CD4311EB08812B /* Pods-stormFood.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -506,7 +506,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4132C4B5C0697B63CE6D0C66 /* Pods-stormFood.release.xcconfig */;
+			baseConfigurationReference = 7B69734E8537F9EB4D20E11A /* Pods-stormFood.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
