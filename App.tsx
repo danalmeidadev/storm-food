@@ -5,8 +5,7 @@ import {} from '';
 const App: React.FC = () => {
   return (
     <View>
-      <Text>Teste</Text>
-      <Text>Teste</Text>
+      <Text>Teste</Tex>
     </View>
   );
 };
