@@ -13,17 +13,14 @@ const Routes: React.FC = () => {
         tabBarIcon: ({color, size}) => {
           let iconName;
           switch (route.name) {
-            case 'home':
+            case 'Home':
               iconName = 'user';
               break;
             case 'productsDetails':
-              iconName = 'list';
-              break;
-            case 'Post':
-              iconName = 'edit';
+              iconName = 'search';
               break;
             case 'Notifications':
-              iconName = 'bell';
+              iconName = 'file-text';
               break;
             case 'Settings':
               iconName = 'settings';
@@ -36,15 +33,23 @@ const Routes: React.FC = () => {
               break;
           }
 
-          return <Icon name={iconName} size={size} color={color} />;
+          return (
+            <>
+              <Icon name={iconName} size={size} color={color} />
+            </>
+          );
         },
       })}
       tabBarOptions={{
-        activeTintColor: '#9C27B0',
-        inactiveTintColor: '#777',
-        showLabel: false,
-      }}>
-      <Tab.Screen name="home" component={Home} />
+        activeTintColor: '#30BB00',
+        inactiveTintColor: '#2B3837',
+        showLabel: true,
+        labelStyle: {
+          fontSize: 14,
+        },
+      }}
+      initialRouteName="Home">
+      <Tab.Screen name="Home" component={Home} />
       <Tab.Screen name="productsDetails" component={ProductsDetails} />
       <Tab.Screen name="products" component={ProductsDetails} />
       <Tab.Screen name="Notifications" component={Home} />
