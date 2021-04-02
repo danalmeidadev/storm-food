@@ -6,6 +6,8 @@ const App: React.FC = () => {
   return (
     <View>
       <Text>Teste
+      <Text>Teste
+      <Text>Teste
     </View>
   );
 };
