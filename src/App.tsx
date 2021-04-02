@@ -1,13 +1,12 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import {} from '';
 
 const App: React.FC = () => {
   return (
     <View>
-      <Text>Test
+      <Text>Test</Text>
     </View>
   );
 };
 
-export default App;
+export {App};
