@@ -3,5 +3,36 @@
         "id": 1,
         "name": "John Doe",
         "location": "Brazil"
+    }],
+    "restaurants" : [{
+        "id": 1,
+        "name": "Shaking The Steak",
+        "categories": "Burger, Pasta, Pizza",
+        "avaliable": 200,
+        "long": -763892173,
+        "lat": 3809183,
+        "img": "https://cdn.pixabay.com/photo/2018/07/14/15/27/cafe-3537801__340.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Rin’s Waffle & Coffe",
+        "categories": "Waffle, Pancake, Pizza",
+        "avaliable": 200,
+        "long": -763892173,
+        "lat": 3809183,
+        "img": "https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784__340.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Fossa Kitchen",
+        "categories": "Burger, Pasta, Pizza",
+        "avaliable": 200,
+        "long": -763892173,
+        "lat": 3809183,
+        "img": "https://cdn.pixabay.com/photo/2015/05/15/14/55/cafe-768771__340.jpg"
+    }
+],
+    "products": [{
+        "restaurant_id": 1
     }]
 }

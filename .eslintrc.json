@@ -29,6 +29,7 @@
         "prettier"
     ],
     "rules": {
+      "eslint-comments/no-unlimited-disable": "on",
       "prettier/prettier": "error",
 	  "react-hooks/rules-of-hooks": "error",
       "no-use-before-define": "off",

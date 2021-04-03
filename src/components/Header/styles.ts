@@ -2,6 +2,8 @@ import styled from 'styled-components/native';
 
 export const Container = styled.View`
   width: 100%;
+  padding: 0 20px;
+  margin-bottom: -20px;
 `;
 
 export const Text = styled.Text`
@@ -15,10 +17,9 @@ export const DeliveryAddress = styled.Text`
   font-weight: 400;
   opacity: 0.5;
   padding-bottom: 3px;
+  margin-left: 4px;
 `;
-export const WrapperAdrres = styled.View`
-  padding-left: 8px;
-`;
+export const WrapperAdrres = styled.View``;
 export const Address = styled.Text`
   font-size: 14px;
   color: #2b3837;
@@ -26,18 +27,18 @@ export const Address = styled.Text`
 `;
 
 export const Wrapper = styled.View`
-  margin-top: 80px;
-  padding-left: 23px;
+  margin-top: 60px;
   flex-direction: row;
 `;
 
 export const WrapperImage = styled.View`
   width: 100%;
   height: 100%;
-  margin-left: 90px;
-  margin-top: -30px;
+  margin-top: -40px;
+  margin-right: auto;
 `;
 export const Image = styled.Image`
   width: 120px;
   height: 120px;
+  margin-left: 70px;
 `;

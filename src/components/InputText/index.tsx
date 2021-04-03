@@ -1,7 +1,7 @@
-import React, {useState, useCallback} from 'react';
+import React, { useState, useCallback } from 'react';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import {TextInputProps} from 'react-native';
-import {Container, TextInput, Icon} from './styles';
+import { TextInputProps } from 'react-native';
+import { Container, TextInput, Icon } from './styles';
 
 interface InputProps extends TextInputProps {
   name?: string;
@@ -40,11 +40,10 @@ const InputText: React.FC<InputProps> = ({
         onBlur={handleInputBlur}
         value={value}
         placeholder={placeholder}
-        testID="search-input"
         {...rest}
       />
     </Container>
   );
 };
 
-export {InputText};
+export { InputText };
