@@ -1,9 +1,8 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React from 'react';
 import { CardRestaurant } from '~/components/CardRestaurant';
 import { CardVerticalRestaurant } from '~/components/CardVerticalRestaurant';
 import { Header } from '~/components/Header';
 import { InputText } from '~/components/InputText';
-import { api } from '~/services/api';
 import {
   Container,
   WrapperInput,
@@ -14,18 +13,6 @@ import {
 } from './styles';
 
 const Home: React.FC = () => {
-  const [restaurant, setRestaurant] = useState([]);
-
-  const restaurants = useCallback(() => {
-    api.get('restaurants').then(({ data }) => setRestaurant(data));
-  }, []);
-
-  useEffect(() => {
-    restaurants();
-  }, [restaurants]);
-
-  console.log('restaurant', restaurant);
-
   return (
     <>
       <Container>

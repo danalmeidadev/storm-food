@@ -1,10 +1,22 @@
 import styled from 'styled-components/native';
 import Feathericons from 'react-native-vector-icons/Feather';
-import {FlatList} from 'react-native';
+import { FlatList, TouchableOpacity } from 'react-native';
+
+interface IRestaurant {
+  id: number;
+  name: string;
+  categories: string;
+  avaliable: number;
+  long: number;
+  lat: number;
+  img: string;
+}
 
 export const Container = styled.View``;
 
-export const RestaurantList = styled(FlatList).attrs({})`
+export const RestaurantList = styled(
+  FlatList as new () => FlatList<IRestaurant>,
+)`
   flex-direction: row;
 `;
 
@@ -58,6 +70,9 @@ export const Icon = styled(Feathericons)`
 `;
 
 export const Text = styled.Text`
+  font-size: 14px;
+`;
+export const TouchableOpacityTitle = styled(TouchableOpacity)`
   font-size: 14px;
 `;
 export const TextValue = styled.Text`

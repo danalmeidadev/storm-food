@@ -1,6 +1,16 @@
 import styled from 'styled-components/native';
 import Feathericons from 'react-native-vector-icons/Feather';
-import {FlatList} from 'react-native';
+import { FlatList } from 'react-native';
+
+interface IRestaurant {
+  id: number;
+  name: string;
+  categories: string;
+  avaliable: number;
+  long: number;
+  lat: number;
+  img: string;
+}
 
 export const Container = styled.View`
   flex: 1;
@@ -16,7 +26,9 @@ export const Wrapper = styled.View`
   margin-bottom: 20px;
 `;
 
-export const RestaurantList = styled(FlatList).attrs({})``;
+export const RestaurantList = styled(
+  FlatList as new () => FlatList<IRestaurant>,
+)``;
 export const Image = styled.Image`
   width: 87px;
   height: 87px;

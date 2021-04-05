@@ -1,13 +1,15 @@
 import React from 'react';
-import {Text} from 'react-native';
-import {Container} from './styles';
+import { Text } from 'react-native';
+import { Container } from './styles';
 
 const ProductsDetails: React.FC = () => {
   return (
-    <Container>
-      <Text>ProductsDetails</Text>
-    </Container>
+    <>
+      <Container>
+        <Text>Page</Text>
+      </Container>
+    </>
   );
 };
 
-export {ProductsDetails};
+export { ProductsDetails };

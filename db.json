@@ -33,6 +33,207 @@
     }
 ],
     "products": [{
-        "restaurant_id": 1
+        "id": 1,
+        "restaurant_id": 1,
+        "name": "hanburguer",
+        "composition": "Beef, Cheese, Salad",
+        "price": "49.00",
+        "img": "https://cdn.pixabay.com/photo/2015/04/20/13/25/burger-731298__340.jpg",
+        "extras": [
+            {
+              "id": 1,
+              "name": "Bacon",
+              "value": 1.5
+            },
+            {
+              "id": 2,
+              "name": "Frango",
+              "value": 2
+            }
+          ]       
+
+    },
+    {
+        "id": 2,
+        "restaurant_id": 1,
+        "name": "hanburguer",
+        "composition": "Beef, Cheese, Salad",
+        "price": "49.00",
+        "img": "https://cdn.pixabay.com/photo/2015/04/20/13/25/burger-731298__340.jpg",
+        "extras": [
+            {
+              "id": 1,
+              "name": "Bacon",
+              "value": 1.5
+            },
+            {
+              "id": 2,
+              "name": "Frango",
+              "value": 2
+            }
+          ]     
+
+    },
+    {
+        "id": 3,
+        "restaurant_id": 1,
+        "name": "hanburguer Mist",
+        "composition": "Beef, Cheese, Salad",
+        "price": "39.00",
+        "img": "https://cdn.pixabay.com/photo/2017/08/12/18/59/snack-2635035__340.jpg",
+        "extras": [
+            {
+              "id": 1,
+              "name": "Bacon",
+              "value": 1.5
+            },
+            {
+              "id": 2,
+              "name": "Frango",
+              "value": 2
+            }
+          ] 
+    },
+    {
+        "id": 4,
+        "restaurant_id": 1,
+        "name": "X-Egg",
+        "composition": "Beef, Cheese, Salad",
+        "price": "29.00",
+        "img": "https://cdn.pixabay.com/photo/2018/10/14/13/20/burger-3746476__340.jpg",
+        "extras": [
+            {
+              "id": 1,
+              "name": "Bacon",
+              "value": 1.5
+            },
+            {
+              "id": 2,
+              "name": "Frango",
+              "value": 2
+            }
+          ]  
+    },
+    {
+        "id": 1,
+        "restaurant_id": 2,
+        "name": "hanburguer",
+        "composition": "Beef, Cheese, Salad",
+        "price": "49.00",
+        "img": "https://cdn.pixabay.com/photo/2015/04/20/13/25/burger-731298__340.jpg",
+        "extras": [
+            {
+              "id": 1,
+              "name": "Bacon",
+              "value": 1.5
+            },
+            {
+              "id": 2,
+              "name": "Frango",
+              "value": 2
+            }
+          ]          
+
+    },
+    {
+        "id": 1,
+        "restaurant_id": 2,
+        "name": "hanburguer Mist",
+        "composition": "Beef, Cheese, Salad",
+        "price": "39.00",
+        "img": "https://cdn.pixabay.com/photo/2017/08/12/18/59/snack-2635035__340.jpg",
+        "extras": [
+            {
+              "id": 1,
+              "name": "Bacon",
+              "value": 1.5
+            },
+            {
+              "id": 2,
+              "name": "Frango",
+              "value": 2
+            }
+          ]    
+    },
+    {
+        "id": 3,
+        "restaurant_id": 2,
+        "name": "X-Egg",
+        "composition": "Beef, Cheese, Salad",
+        "price": "29.00",
+        "img": "https://cdn.pixabay.com/photo/2018/10/14/13/20/burger-3746476__340.jpg",
+        "extras": [
+            {
+              "id": 1,
+              "name": "Bacon",
+              "value": 1.5
+            },
+            {
+              "id": 2,
+              "name": "Frango",
+              "value": 2
+            }
+          ]      
+    },
+    {
+        "id": 1,
+        "restaurant_id": 3,
+        "name": "hanburguer",
+        "composition": "Beef, Cheese, Salad",
+        "price": "49.00",
+        "img": "https://cdn.pixabay.com/photo/2015/04/20/13/25/burger-731298__340.jpg",
+        "extras": [
+            {
+              "id": 1,
+              "name": "Bacon",
+              "value": 1.5
+            },
+            {
+              "id": 2,
+              "name": "Frango",
+              "value": 2
+            }
+          ]            
+
+    },
+    {
+        "id": 2,
+        "restaurant_id": 3,
+        "name": "hanburguer Mist",
+        "composition": "Beef, Cheese, Salad",
+        "price": "39.00",
+        "img": "https://cdn.pixabay.com/photo/2017/08/12/18/59/snack-2635035__340.jpg",
+        "extras": [
+            {
+              "id": 1,
+              "name": "Bacon",
+              "value": 1.5
+            },
+            {
+              "id": 2,
+              "name": "Frango",
+              "value": 2
+            }
+          ]      
+    },
+    {
+        "id": 3,
+        "restaurant_id": 3,
+        "name": "X-Egg",
+        "composition": "Beef, Cheese, Salad",
+        "price": "29.00",
+        "img": "https://cdn.pixabay.com/photo/2018/10/14/13/20/burger-3746476__340.jpg",
+        "extras": [
+            {
+              "id": 1,
+              "name": "Bacon",
+              "value": 1.5
+            },
+            {
+              "id": 2,
+              "name": "Frango",
+              "value": 2
+            }
+          ]      
     }]
 }

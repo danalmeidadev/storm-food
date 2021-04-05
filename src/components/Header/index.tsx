@@ -9,7 +9,7 @@ import {
   Image,
 } from './styles';
 import Icon from 'react-native-vector-icons/Feather';
-import {Images} from '~/assets/images';
+import { Images } from '~/assets/images';
 
 const Header: React.FC = () => {
   return (
@@ -28,4 +28,4 @@ const Header: React.FC = () => {
   );
 };
 
-export {Header};
+export { Header };

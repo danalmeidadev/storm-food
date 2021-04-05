@@ -1,6 +1,5 @@
 import React, { useCallback, useState, useEffect } from 'react';
 import { Text, View } from 'react-native';
-import { Images } from '~/assets/images';
 import { api } from '~/services/api';
 import {
   Container,
@@ -43,15 +42,14 @@ const CardVerticalRestaurant: React.FC = () => {
     <Container>
       <RestaurantList
         data={restaurant}
-        /* eslint-disable */
-        /* keyExtractor={data => data.id} */     
+        keyExtractor={data => String(`${data.id}`)}
         ListFooterComponent={<View />}
         showsHorizontalScrollIndicator={false}
-        renderItem={({item}) => (
+        renderItem={({ item }: { item: IRestaurant }) => (
           <Wrapper>
-            <Image source={Images.Shaking} />
+            <Image source={{ uri: item.img }} />
             <WrapperCard>
-              <TitleRestaurant>Fossa Kitchen</TitleRestaurant>
+              <TitleRestaurant>{item.name}</TitleRestaurant>
               <Categories>Burger . Pasta . Pizza</Categories>
               <WrapperText>
                 <Value>
@@ -75,4 +73,4 @@ const CardVerticalRestaurant: React.FC = () => {
   );
 };
 
-export {CardVerticalRestaurant};
+export { CardVerticalRestaurant };

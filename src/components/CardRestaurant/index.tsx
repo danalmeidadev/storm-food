@@ -1,6 +1,6 @@
+import { useNavigation } from '@react-navigation/core';
 import React, { useCallback, useState, useEffect } from 'react';
 import { View } from 'react-native';
-import { Images } from '~/assets/images';
 import { api } from '~/services/api';
 import {
   Container,
@@ -16,6 +16,7 @@ import {
   Icon,
   Text,
   TextValue,
+  TouchableOpacityTitle,
 } from './styles';
 
 interface IRestaurant {
@@ -27,8 +28,8 @@ interface IRestaurant {
   lat: number;
   img: string;
 }
-
-const CardRestaurant: React.FC<IRestaurant> = () => {
+const CardRestaurant: React.FC = () => {
+  const navigation = useNavigation();
   const [restaurant, setRestaurant] = useState<IRestaurant[]>([]);
 
   const restaurants = useCallback(() => {
@@ -39,22 +40,23 @@ const CardRestaurant: React.FC<IRestaurant> = () => {
     restaurants();
   }, [restaurants]);
 
-  console.log(restaurant);
-
   return (
     <Container>
       <RestaurantList
         data={restaurant}
         horizontal={true}
-        /* eslint-disable */
-        /* keyExtractor={data => data.id} */
+        keyExtractor={data => String(`${data.id}`)}
         ListFooterComponent={<View />}
         showsHorizontalScrollIndicator={false}
-       /* eslint-disable */
-        renderItem={({item}) => (
+        renderItem={({ item }: { item: IRestaurant }) => (
           <WrapperCard>
-            <Image source={Images.Shaking} />
-            <Title>Tefste</Title>
+            <Image source={{ uri: item.img }} />
+            <TouchableOpacityTitle
+              onPress={() =>
+                navigation.navigate('RestaurantDetails', { data: item })
+              }>
+              <Title>{item.name}</Title>
+            </TouchableOpacityTitle>
             <Categories>Burger . Pasta . Pizza</Categories>
             <WrapperDescription>
               <Value>
@@ -77,4 +79,4 @@ const CardRestaurant: React.FC<IRestaurant> = () => {
   );
 };
 
-export {CardRestaurant};
+export { CardRestaurant };

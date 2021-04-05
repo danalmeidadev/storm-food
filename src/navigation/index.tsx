@@ -1,31 +1,32 @@
 import React from 'react';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/Feather';
-import {Home} from '~/Screens/Home';
-import {ProductsDetails} from '~/Screens/ProductsDetails';
+import { Home } from '~/Screens/Home';
+import { ProductsDetails } from '~/Screens/ProductsDetails';
+import { Order } from '~/Screens/Order';
 
 const Tab = createBottomTabNavigator();
 
-const Routes: React.FC = () => {
+const Navigation: React.FC = () => {
   return (
     <Tab.Navigator
-      screenOptions={({route}) => ({
-        tabBarIcon: ({color, size}) => {
+      screenOptions={({ route }) => ({
+        tabBarIcon: ({ color, size }) => {
           let iconName;
           switch (route.name) {
             case 'Home':
               iconName = 'user';
               break;
-            case 'productsDetails':
+            case 'Explore':
               iconName = 'search';
               break;
-            case 'Notifications':
-              iconName = 'file-text';
+            case 'Order':
+              iconName = 'list';
+              break;
+            case 'Offers':
+              iconName = 'percent';
               break;
             case 'Settings':
-              iconName = 'settings';
-              break;
-            case 'products':
               iconName = 'settings';
               break;
             default:
@@ -50,11 +51,11 @@ const Routes: React.FC = () => {
       }}
       initialRouteName="Home">
       <Tab.Screen name="Home" component={Home} />
-      <Tab.Screen name="productsDetails" component={ProductsDetails} />
-      <Tab.Screen name="products" component={ProductsDetails} />
-      <Tab.Screen name="Notifications" component={Home} />
+      <Tab.Screen name="Explore" component={ProductsDetails} />
+      <Tab.Screen name="Order" component={Order} />
+      <Tab.Screen name="Offers" component={Home} />
       <Tab.Screen name="Settings" component={Home} />
     </Tab.Navigator>
   );
 };
-export {Routes};
+export { Navigation };
